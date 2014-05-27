@@ -83,7 +83,7 @@
                 for your project, such as Arquillian for testing) and the jboss-javaee-6.0-with-hibernate 
                 stack you can read this as the JBoss stack of the Java EE 6 APIs, with extras 
                 from the Hibernate family of projects) -->
-                <dependency> <groupId>org.jboss</groupId> <artifactId>staxmapper</artifactId> <version>1.1.0.Final</version> </dependency>
+                
             <dependency>
                 <groupId>org.jboss.bom</groupId>
                 <artifactId>jboss-javaee-6.0-with-tools</artifactId>
@@ -250,7 +250,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>${version.surefire.plugin}</version>
                         <configuration>
-                            <skip>true</skip>
+                            <skip>false</skip>
                         </configuration>
                     </plugin>
                 </plugins>
