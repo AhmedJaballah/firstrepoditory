@@ -229,7 +229,7 @@
             <plugin>
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.1</version>
+                <version>${version.jboss.maven.plugin}</version>
             </plugin>
         </plugins>
     </build>
