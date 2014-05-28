@@ -222,6 +222,12 @@
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
                 <version>${version.jboss.maven.plugin}</version>
+                <configuration>
+			        <hostname>127.0.0.1</hostname>
+			        <username>myuser</username>
+			        <password>123</password>
+			        <port>9999</port>
+		        </configuration>
             </plugin>
         </plugins>
     </build>
